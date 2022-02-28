@@ -1,0 +1,3 @@
+[submodule "root/boring-solidity"]
+	path = root/boring-solidity
+	url = https://github.com/boringcrypto/BoringSolidity

@@ -1,0 +1,28 @@
+{
+  "name": "sushi-monorepo",
+  "version": "1.0.0",
+ "private": true,
+  "workspaces": [
+    "root/*"
+  ],
+  "description": "",
+    "scripts": {
+    "test": "forge build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/monosushi.git"
+  },
+  "keywords": [],
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/sambacha/monosushi/issues"
+  },
+  "homepage": "https://github.com/sambacha/monosushi#readme",
+  "devDependencies": {
+    "turbo": "^1.1.4"
+  },
+  "dependencies": {
+    "semver": "^7.3.5"
+  }
+}
